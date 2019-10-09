@@ -1,0 +1,310 @@
+.navbar {
+	background-color: white;
+	height: 50%;
+	width: 100%;
+	z-index: 3;
+}
+
+.logo {
+	width: 23%;
+	height: 23%;
+	padding-top: 17px;
+}
+
+.navd {
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	color: #242929;
+	position: absolute;
+	right: 243px;
+	top: 49px;
+}
+
+.options {
+	height: 5%;
+	width: 100%;
+	background-color: #38AECC;
+	padding-top: 5px;
+	padding-bottom 5px;
+	font-weight: bold;
+}
+
+.options a {
+	display: inline;
+	padding-right: 60px;
+	color: white;
+	padding-left: 60px;
+	letter-spacing: 0.27em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.facebook {
+	position: absolute;
+	right: 186px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.insta {
+	position: absolute;
+	right: 145px;
+	top: 42px;
+	width:2%;
+	height: 25%;
+}
+
+.twt {
+	position: absolute;
+	right: 88px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.gmail {
+	position: absolute;
+	top: 38px;
+	right: 40px;
+	width: 2.5%;
+	height: 35%;
+}
+
+.introtitle3 {
+	position: absolute;
+	top: 470px;
+	left: 150px;
+	color: white;	
+	text-align: right;
+	font-weight: bold;
+}
+
+.introtext2 {
+	position: absolute;
+	top: 580px;
+	left: 220px;
+	right: 600px;
+	color: white;	
+	text-align: left;
+	font-weight: bold;
+}
+
+.des {
+	position: absolute;
+	top: 907px;	
+	text-align: left;
+	left: 316px;
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.norm {
+	position: absolute;	
+	left: 318px;
+	right: 238px;
+	font-size: 23px;
+	line-height: 1.8;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.one {
+	padding-top: 118px;
+}
+
+.two {
+	padding-top: 577px;
+}
+
+.three {
+	padding-top: 348px;
+}
+
+.des2 {
+	position: absolute;
+	top: 1360px;	
+	text-align: left;
+	left: 316px;
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.container {	
+	position: absolute;
+	left: 314px;
+	top: 1928px;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-505, -50%);
+	text-align: center;
+}
+
+.middle2 {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	left: 35%;
+	right: 5%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-505, -50%);
+	text-align: center;
+}
+
+.text1 {
+	background-color: #38AECC;
+	color: white;
+	font-size: 17px;
+	padding: 16px 32px;
+	font-family: 'Trebuchet MS';
+	width: 1000%;
+	height: 500%;
+}
+
+.middle1 {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.pic {
+	width: 71%;
+}
+
+.container:hover .pic {
+	opacity: 0.3;
+}
+
+.container:hover .middle {
+	opacity: 1;
+} 
+
+.text {
+	background-color: #38AECC;;
+	color: white;
+	font-size: 19px;
+	padding: 16px 32px;
+	font-family: 'Trebuchet MS';
+}
+
+.des3 {
+	position: absolute;
+	top: 2390px;	
+	text-align: left;
+	left: 316px;
+	color: white;
+	font-weight: bold;
+	font-size: 42px;	
+}
+
+.meet {
+	position: absolute;
+	top: 3050px;
+	left: 580px;
+	right: 80px;	
+	color: white;
+}
+
+.container1 {
+	position: absolute;
+	left: 70px;
+	top: 2500px;
+}
+
+.pic1 {
+	width: 165%;
+	box-shadow: 4px 6px 18px gray;
+}
+
+.container1:hover .pic3 {
+	opacity: 0.3;
+	background-color: white;
+}
+
+.container1:hover .middle2 {
+	opacity: 1;
+} 
+
+.text1 {
+	background-color: #38AECC;
+	color: white;
+	font-size: 17px;
+	padding: 16px 32px;
+	font-family: 'Trebuchet MS';
+	width: 200%;
+	height: 400%;	
+
+}
+
+.container2 {
+	position: absolute;
+	left: 570px;
+	top: 2500px;
+}
+
+.pic2 {
+	width: 100%;	
+	box-shadow: 4px 6px 18px gray;
+}
+
+.container2:hover .pic2 {
+	opacity: 0.3;
+	background-color: white;
+}
+
+.container2:hover .middle {
+	opacity: 1;
+}
+
+.container3 {
+	position: absolute;
+	left: 70px;
+	top: 3000px;
+}
+
+.middle3 {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 230px;
+	left: 150px;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-505, -50%);
+	text-align: center;
+}
+
+.pic3 {
+	width: 70%;
+	box-shadow: 4px 6px 18px gray;
+}
+
+.container3:hover .pic1 {
+	opacity: 0.3;
+	background-color: white;
+}
+
+.container3:hover .middle3 {
+	opacity: 1;
+} 
+
+.back {
+	background-color: #38AECC;
+	position: absolute;
+	top: 2360px;
+	width: 100%;
+	height: 167%;
+	z-index: -1;	
+}
